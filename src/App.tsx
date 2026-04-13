@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Button from './components/Button/Button';
+import User from './components/User/User';
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
       <Button isDisable={true} functionClick={sayHi} content="fffff"></Button>
       <Button isDisable={false} functionClick={sayBye} content="324324"></Button>
       <Button isDisable={false} functionClick={sayHi} content="fdgdfgdfg"></Button>
+
+      <User surname="Hanna Burkovskkaya"></User>
     </>
   );
 }

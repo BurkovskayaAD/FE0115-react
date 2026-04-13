@@ -1,0 +1,18 @@
+.user-container {
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    align-items: center;
+    width: fit-content;
+}
+
+.user-initials {
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgb(114, 114, 209);
+}
+
+.user-surname {
+    color: aliceblue;
+    margin-left: 7px;
+}
