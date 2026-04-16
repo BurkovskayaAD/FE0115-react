@@ -2,6 +2,13 @@ import React from 'react';
 import './App.css';
 import Button from './components/Button/Button';
 import User from './components/User/User';
+import PropsChildren from './components/PropsChildren';
+import ExampleState from './components/ExampleState';
+import Map from './components/Map';
+import Form from './components/Form';
+import ConditionalState from './components/ConditionalState';
+
+
 
 function App() {
 
@@ -27,6 +34,16 @@ function App() {
       <Button isDisable={false} functionClick={sayHi} content="fdgdfgdfg"></Button>
 
       <User surname="Hanna Burkovskkaya"></User>
+
+      <PropsChildren>dsfodsf</PropsChildren>
+
+      <ExampleState></ExampleState>
+
+      <Map></Map>
+
+      <Form></Form>
+
+      <ConditionalState></ConditionalState>
     </>
   );
 }
