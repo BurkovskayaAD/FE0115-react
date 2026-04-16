@@ -7,6 +7,7 @@ import ExampleState from './components/ExampleState';
 import Map from './components/Map';
 import Form from './components/Form';
 import ConditionalState from './components/ConditionalState';
+import Input from './components/Input/Input';
 
 
 
@@ -44,6 +45,8 @@ function App() {
       <Form></Form>
 
       <ConditionalState></ConditionalState>
+
+      <Input inputType="text" inputLabel="Name" inputPlaceholder="Enter name..." isDisable={false}></Input>
     </>
   );
 }
