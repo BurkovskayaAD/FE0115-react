@@ -8,8 +8,10 @@ import Map from './components/Map';
 import Form from './components/Form';
 import ConditionalState from './components/ConditionalState';
 import Input from './components/Input/Input';
+import LifeCycle from './components/LifeCycle';
 
-
+import Shrek from  './assets/shrek.jpg'
+import Smart from './components/Smart';
 
 function App() {
 
@@ -28,7 +30,7 @@ function App() {
 
   return (
     <>
-      <div className='main'>{returnFive()}</div>
+      {/* <div className='main'>{returnFive()}</div>
       <Button isDisable={true} functionClick={sayBye} content="12"></Button>
       <Button isDisable={true} functionClick={sayHi} content="fffff"></Button>
       <Button isDisable={false} functionClick={sayBye} content="324324"></Button>
@@ -47,6 +49,12 @@ function App() {
       <ConditionalState></ConditionalState>
 
       <Input inputType="text" inputLabel="Name" inputPlaceholder="Enter name..." isDisable={false}></Input>
+
+      <img src={Shrek} alt="this is Shrek" /> */}
+
+      {/* <LifeCycle></LifeCycle> */}
+
+      <Smart></Smart>
     </>
   );
 }
