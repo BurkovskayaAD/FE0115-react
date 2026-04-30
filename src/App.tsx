@@ -14,6 +14,8 @@ import Shrek from  './assets/shrek.jpg'
 import Smart from './components/Smart';
 import BigCard from './components/BigCard/BigCard';
 import Effect from './components/Effect';
+import MediumCard from './components/MediumCard/MediumCard';
+import SmallCard from './components/SmallCard/SmallCard';
 
 
 function App() {
@@ -61,7 +63,10 @@ function App() {
 
       {/* <BigCard></BigCard> */}
 
-      <Effect></Effect>
+      {/* <Effect></Effect> */}
+
+      {/* <MediumCard></MediumCard> */}
+      <SmallCard></SmallCard>
     </>
   );
 }
