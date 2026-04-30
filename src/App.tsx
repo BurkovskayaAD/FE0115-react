@@ -13,6 +13,7 @@ import LifeCycle from './components/LifeCycle';
 import Shrek from  './assets/shrek.jpg'
 import Smart from './components/Smart';
 import BigCard from './components/BigCard/BigCard';
+import Effect from './components/Effect';
 
 
 function App() {
@@ -58,7 +59,9 @@ function App() {
 
       {/* <Smart></Smart> */}
 
-      <BigCard></BigCard>
+      {/* <BigCard></BigCard> */}
+
+      <Effect></Effect>
     </>
   );
 }
