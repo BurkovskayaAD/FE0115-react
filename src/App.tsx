@@ -16,6 +16,7 @@ import BigCard from './components/BigCard/BigCard';
 import Effect from './components/Effect';
 import MediumCard from './components/MediumCard/MediumCard';
 import SmallCard from './components/SmallCard/SmallCard';
+import PostsList from './components/PostsList/PostsList';
 
 
 function App() {
@@ -66,7 +67,9 @@ function App() {
       {/* <Effect></Effect> */}
 
       {/* <MediumCard></MediumCard> */}
-      <SmallCard></SmallCard>
+      {/* <SmallCard></SmallCard> */}
+
+      <PostsList></PostsList>
     </>
   );
 }
