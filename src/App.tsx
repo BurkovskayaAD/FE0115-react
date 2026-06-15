@@ -17,6 +17,10 @@ import Effect from './components/Effect';
 import MediumCard from './components/MediumCard/MediumCard';
 import SmallCard from './components/SmallCard/SmallCard';
 import PostsList from './components/PostsList/PostsList';
+import Context from './components/Context/Context';
+import Refs from './components/Refs';
+import Toggle from './components/Toggle';
+import { ExampleContext } from './providers/ExampleContext';
 
 
 function App() {
@@ -36,40 +40,12 @@ function App() {
 
   return (
     <>
-      {/* <div className='main'>{returnFive()}</div>
-      <Button isDisable={true} functionClick={sayBye} content="12"></Button>
-      <Button isDisable={true} functionClick={sayHi} content="fffff"></Button>
-      <Button isDisable={false} functionClick={sayBye} content="324324"></Button>
-      <Button isDisable={false} functionClick={sayHi} content="fdgdfgdfg"></Button>
+     <ExampleContext>
+        <Context></Context>
+        <Refs></Refs>
+        <Toggle></Toggle>
+     </ExampleContext>
 
-      <User surname="Hanna Burkovskkaya"></User>
-
-      <PropsChildren>dsfodsf</PropsChildren>
-
-      <ExampleState></ExampleState>
-
-      <Map></Map>
-
-      <Form></Form>
-
-      <ConditionalState></ConditionalState>
-
-      <Input inputType="text" inputLabel="Name" inputPlaceholder="Enter name..." isDisable={false}></Input>
-
-      <img src={Shrek} alt="this is Shrek" /> */}
-
-      {/* <LifeCycle></LifeCycle> */}
-
-      {/* <Smart></Smart> */}
-
-      {/* <BigCard></BigCard> */}
-
-      {/* <Effect></Effect> */}
-
-      {/* <MediumCard></MediumCard> */}
-      {/* <SmallCard></SmallCard> */}
-
-      <PostsList></PostsList>
     </>
   );
 }

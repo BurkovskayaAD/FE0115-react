@@ -1,0 +1,15 @@
+.context-light {
+    background-color: rgb(201, 197, 197);
+}
+
+.context-text-light {
+    color: black;
+}
+
+.context-dark {
+    background-color: rgb(56, 56, 56);
+}
+
+.context-text-dark {
+    color: rgb(221, 221, 221);
+}
