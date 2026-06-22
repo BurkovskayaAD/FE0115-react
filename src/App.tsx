@@ -28,6 +28,9 @@ import AllPostsPage from './pages/AllPostsPage';
 import Header from './components/Header';
 import PostPage from './pages/PostPage';
 
+import CompomemtForRedux from './components/CompomemtForRedux';
+
+
 
 function App() {
 
@@ -52,19 +55,21 @@ function App() {
         <Toggle></Toggle>
      </ExampleContext> */}
 
-     <BrowserRouter>
+     {/* <BrowserRouter>
         <Header></Header>
         <Routes>
           <Route path='/' element={<MainPage></MainPage>}></Route>
           <Route path='/aboutus' element={<AboutUsPage></AboutUsPage>}></Route>
-          <Route path='/allposts' element={<AllPostsPage></AllPostsPage>}></Route>
+          <Route path='/allposts' element={<AllPostsPage></AllPostsPage>}></Route> */}
           {/* <Route path='/allposts' element={<AllPostsPage></AllPostsPage>}>
             <Route path='bigcart' element={<BigCard></BigCard>}></Route>
           </Route> */}
-          <Route path='/allposts/:id' element={<PostPage></PostPage>}></Route>
+          {/* <Route path='/allposts/:id' element={<PostPage></PostPage>}></Route>
           <Route path='*' element={<h1>404 NOT FOUND</h1>}></Route>
         </Routes>
-     </BrowserRouter>
+     </BrowserRouter> */}
+
+     <CompomemtForRedux></CompomemtForRedux>
 
     </>
   );
